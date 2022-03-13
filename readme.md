@@ -39,3 +39,23 @@ Zlinkujemy strony ze sobą.
 2. połączenie html i php
 3. wyniesienie html do osobnych plików
 4. utworzenie klasy widoku
+
+# Obsługa dodawania nowej notatki i optymalizacja
+
+* zaczynamy pracować na przygotowanym szablonie graficznym, pliki do ściągnięcia
+
+## Cel
+
+Obsługa dodawania nowej notatki.
+
+## Krok po kroku
+
+1. utworzenie formularza do dodawania notatki
+
+2. obsługa danych przesłanych przez formularz
+    * omówić $_GET i $_POST
+    * bezpieczeństwo - dane pochodzące z zewnątrz, eskejpowanie, XSS
+
+3. wyświetlenie danych przesłanych przez formularz
+
+4. utworzenie klasy kontrolera - refactoring
